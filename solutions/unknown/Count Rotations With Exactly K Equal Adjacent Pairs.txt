@@ -1,0 +1,5 @@
+// Title: Count Rotations With Exactly K Equal Adjacent Pairs
+            // Difficulty: Unknown
+            // Language: undefined
+            // Link: https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/
+
