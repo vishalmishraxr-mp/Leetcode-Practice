@@ -3,6 +3,12 @@
             // Language: C++
             // Link: https://leetcode.com/problems/remove-outermost-parentheses/
 
+class Solution {
+public:
+    string removeOuterParentheses(string s) {
+        int n = s.size();
+        string v = "";
+        int o_br = 0;
         int c_br = 0;
         int st = 0;
         for(int i=0;i<n;i++){
@@ -14,5 +20,3 @@
             }
         }
         return v;
-    }
-};
