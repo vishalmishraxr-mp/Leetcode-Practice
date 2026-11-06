@@ -3,6 +3,11 @@
             // Language: C++
             // Link: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
 
+class Solution {
+public:
+    int findTheDistanceValue(vector<int>& arr1, vector<int>& arr2, int d) 
+    {
+        int n = arr1.size();
         int m = arr2.size();
         int count =0;
         for(int i=0;i<n;i++){
@@ -12,6 +17,3 @@
             }
             if(flag) count++;
         }
-        return count;
-    }
-};
